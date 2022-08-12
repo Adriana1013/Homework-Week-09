@@ -51,7 +51,12 @@ const questions = [
 { 
   type: "input",
   name: "Questions",
-  message: "Questions"
+  message: "What is your Gihub Username?"
+},
+{
+  type: "input",
+  name: "Questions",
+  message: "What is your email address?"
 },   
 ];
 

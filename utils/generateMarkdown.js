@@ -14,16 +14,22 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `
   # ${data.Title}
-  ## ${data.Description}
-
-  ### ${data.TableofContents}
-
-  ### ${data.Installation}
-  ### ${data.Usage}
-  ### ${data.License}
-  ###${data.Contributing}
-  ### ${data.Tests}
-  ### ${data.Questions}
+  # Description
+  ${data.Description}
+  # Table of Contents
+  ${data.TableofContents}
+  # Installation 
+  ${data.Installation}
+  # Usage 
+  ${data.Usage}
+  # License
+  This application is covered by:${data.License}
+  # Contributors
+  Contributor: ${data.Contributing}
+  # Tests
+  ${data.Tests}
+  # Questions
+  ${data.Questions}
 `;
 }
 
