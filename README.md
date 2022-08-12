@@ -1,23 +1,30 @@
 
   # Professional README Generator
+  # License
+  This application is covered by: true
   # Description
   This is a high-quality README.md that's generated using a command-line application based off of user inputs
   # Table of Contents
-  -[Description](#description)
-  -[Installation](#installation)
-  -[usage](#usage)
-  -[License](#license)
-  -[Contributors](#contributors)
-  -[Tests](#test)
-  -[Questions](#questions)
-  
-  undefined
+  In this project you will find different sections that describe this application along with my contact information. Please see below:
+
+  1. [Description](#description)
+
+  2. [Installation](#installation)
+
+  3. [usage](#usage)
+
+  4. [License](#license)
+
+  5. [Contributors](#contributors)
+
+  6. [Tests](#test)
+
+  7. [Questions](#questions)
+
   # Installation 
-  
+  You will need to answer all of the input questions
   # Usage 
   To use this application you can clone this into your terminal and open it in your preferred source-code editor
-  # License
-  This application is covered by:true
   # Contributors
   undefined
   # Tests

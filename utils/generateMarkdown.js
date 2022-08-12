@@ -1,17 +1,21 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
-  if (data.license === false) {
-    return '';
+function renderLicenseBadge(License) {
+  if (data.License === "MPL 2.0") {
+    return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
   } else {
-    return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`
+    return "";
   }
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {
-
+function renderLicenseLink(License) {
+  if(data.License === "MPL 2.0") {
+    return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
+  } else {
+    return "";
+  }
 }
 
 // TODO: Create a function that returns the license section of README
@@ -22,30 +26,31 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `
   # ${data.Title}
+  # License
+  This application is covered by: ${data.License}
   # Description
   ${data.Description}
   # Table of Contents
-  -[Description](#description)
-
-  -[Installation](#installation)
-
-  -[usage](#usage)
-
-  -[License](#license)
-
-  -[Contributors](#contributors)
-
-  -[Tests](#test)
-  
-  -[Questions](#questions)
-
   ${data.TableofContents}
+
+  1. [Description](#description)
+
+  2. [Installation](#installation)
+
+  3. [usage](#usage)
+
+  4. [License](#license)
+
+  5. [Contributors](#contributors)
+
+  6. [Tests](#test)
+
+  7. [Questions](#questions)
+
   # Installation 
   ${data.Installation}
   # Usage 
   ${data.Usage}
-  # License
-  This application is covered by:${data.License}
   # Contributors
   ${data.Contributing}
   # Tests

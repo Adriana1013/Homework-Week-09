@@ -20,7 +20,7 @@ const questions = [
 },  
 { 
   type: "input",
-  name: "Table of Contents",
+  name: "TableofContents",
   message: "What will we find in your project"
 },  
 { 
@@ -34,14 +34,14 @@ const questions = [
   message: "How do I use your app?"
 },   
 { 
-  type: "confirm",
+  type: "input",
   name: "License",
-  message: "Does your app use a license?"
+  message: "What license is being used?"
 }, 
 { 
-  type: "confirm",
+  type: "input",
   name: "contributing",
-  message: "Can others write to your project?"
+  message: "Who worked on this project?"
 }, 
 { 
   type: "input",
