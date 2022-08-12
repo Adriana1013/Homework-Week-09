@@ -50,12 +50,12 @@ const questions = [
 },
 { 
   type: "input",
-  name: "Questions",
+  name: "Github",
   message: "What is your Gihub Username?"
 },
 {
   type: "input",
-  name: "Questions",
+  name: "Email",
   message: "What is your email address?"
 },   
 ];
